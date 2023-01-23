@@ -1,0 +1,320 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+}
+
+/* background */
+body{
+    background-image: url(assets/bg-main-mobile.png);
+    background-position: 30px -170px;
+    background-size: 510px auto;
+    background-repeat: no-repeat;
+}
+header{ 
+    margin: 4rem 2.4rem 0 2.4rem;
+}
+
+header img{
+    margin-bottom: 6.4rem;
+}
+
+header h1{
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 4.8rem;
+    letter-spacing: -0.454545px;
+    color: #191826;
+}
+
+header p{
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    color: #191826;
+    margin-top: 2rem;
+}
+
+/* section */
+/* mobile  */
+#mobile{
+    width: 55.4%;
+
+    position: relative;
+    top: -95px;
+    left: 21.3vw;
+}
+
+/* section background */
+#section-1{
+    background-image: url(assets/bg-pattern-2.svg);
+    background-color: #191826;
+    height: 60rem;
+    background-repeat: no-repeat;
+    background-position: 12.8vw 0;
+    background-size: 74.6vw auto;
+    border-radius: 12px;
+
+    margin-top: 16.6rem;
+    height: auto;
+}
+
+/* info div */
+
+#information{
+    background: #FA7453;
+    border-radius: 1.2rem;
+    padding: 4.8rem 3.6rem;
+
+    margin-top: -50px;
+}
+
+#information h2{
+    font-weight: 700;
+    font-size: 3.2rem;
+    line-height: 4rem;
+    color: #FCFAF9;
+}
+
+#information p{
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    color: #FCFAF9;
+    margin-top: 1.2rem;
+    margin-bottom: 3.6rem;
+}
+
+strong{
+    font-weight: 700;
+    font-size: 6.5rem;
+    line-height: 5.2rem;
+    color: #FCFAF9;
+}
+
+#information span{
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 3.2rem;
+    letter-spacing: -0.2px;
+    color: #FCFAF9;
+    margin-bottom: 43px;
+    margin-left: 1.6rem;
+    display: inline-block;
+}
+
+/* buttons */
+
+#ios{
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 3.2rem;
+    text-align: center;
+    letter-spacing: -0.18px;
+    color: #FCFAF9;
+    background: #191826;
+    border-radius: 12px;
+    width: 296px;
+    height: 61px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+#android{
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 3.2rem;
+    text-align: center;
+    letter-spacing: -0.18px;
+    color: #191826;
+    background: #FCFAF9;
+    border-radius: 12px;
+    margin-top: 1.6rem;
+    width: 296px;
+    height: 61px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+/* footer */
+footer{
+    margin: 6.4rem 2.4rem 8rem 2.4rem;
+}
+
+footer p, b{
+    width: 327px;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    color: #191826;
+    margin-top: 3.2rem;
+    margin-bottom: 6.4rem;
+}
+
+b{
+    font-weight: 700;
+}
+
+#icons{
+    display: flex;
+    gap: 20px;
+}
+
+#facebook, #instagram, #twitter{
+    width: 2rem;
+    height: 2rem;
+}
+
+#facebook{
+    background-image: url("assets/icon-facebook.svg");
+    background-repeat: no-repeat;
+}
+#instagram{
+    background: url("assets/icon-instagram.svg");
+    background-repeat: no-repeat;
+}
+#twitter{
+    background: url("assets/icon-twitter.svg");
+    background-repeat: no-repeat;
+}
+
+/* tablet responsive */
+@media screen and (min-width: 768px){
+    body{
+        background: url(assets/bg-main-tablet.png) -170px -180px no-repeat, 
+                    url(assets/bg-pattern-1.svg) 107% -30px no-repeat;
+        background-size: min(983px, 808px), min(266px, 400px);
+    }
+
+    header{
+        margin: 6.2rem 4rem 0 4rem;
+    }
+
+    #mobile{
+        width: 35%;
+        left: 9vw;
+        top: -21%;
+    }
+    header h1{
+        font-size: 6.4rem;
+        line-height: 6.4rem;
+        letter-spacing: -0.727273px;
+        width: 67%;
+    }
+    header p{
+        font-size: 18px;
+        line-height: 28px;
+        width: 67%;
+    }
+    #section-1{
+        width: 90.6%;
+        margin: 0 4rem;
+        margin-top: 25rem;
+        background-size: 280px;
+        background-position: 50% -25%;
+        height: 600px;
+
+    }
+    #information{
+        width: 57%;
+        position: relative;
+        left: 30vw;
+        bottom: 320px;
+        padding: 4.8rem;
+    }
+    footer{
+        margin-top: 18.2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 0px;
+    }
+    #icons img{
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media screen and (min-width: 1440px){
+    body{
+        background: url(assets/bg-main-desktop.png) 70px -190px no-repeat, 
+                    url(assets/bg-pattern-1.svg) 100% -35px no-repeat;
+    background-size: 170vh, 312px;
+    }
+    header{
+        margin: 6.2rem 16.6rem 0 16.6rem;
+    }
+    #section-1{
+        margin: 32.1rem 16.5rem 0 16.5rem;
+        width: 77%;
+        background-position: 39.75% -40px;
+        background-size: 28% 78%;
+    }
+    #mobile{
+        width: 25%;
+        left: 10.63%;
+        top: -32%;
+        height: 606px;
+    }
+    footer{
+        margin: 20.2rem 16.6rem 9rem 16.6rem;
+    }
+    header h1{
+        font-weight: 700;
+        font-size: 88px;
+        line-height: 88px;
+        letter-spacing: -1px;
+        width: 60vw;
+    }
+    header p{
+        font-size: 20px;
+        line-height: 34px;
+        width: 60vw;
+    }
+    #information{
+        width: 40%;
+        left: 51%;
+        padding: 5.8rem 6rem 5.4rem 4.8rem;
+        bottom: 415px;
+
+    }
+    #information h1{
+        font-size: 40px;
+        line-height: 52px;
+        
+    }
+    #information p{
+        font-size: 20px;
+        line-height: 34px;
+    }
+    #ios, #android{
+        width: 33.3rem;
+    }
+}
+
+/* hover elements */
+#ios:hover{
+    background-color: #66E2DC;
+}
+#android:hover{
+    background-color: #FFB964;
+}
+#facebook:hover{
+    background-image: url("assets/red-facebook.svg");
+}
+#instagram:hover{
+    background-image: url("assets/red-insta.svg");
+}
+#twitter:hover{
+    background-image: url("assets/red-twitter.svg");
+}
+#ios, #nadroid, #facebook, #instagram, #twitter{
+    cursor: pointer;
+}
